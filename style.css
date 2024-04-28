@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+header{
+    background-image: url(1.jpg);
+    height: 80vh;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 0 0 1000px rgba(0, 0, 0, 0.1);
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 35px;
+    margin-right: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(74, 165, 81);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color:rgb(177, 194, 48);
+    color:#000; 
+}
+.row .col .image:hover {
+    opacity: 0.5;
+}
+
+ul li.active a{
+    background-color:rgb(177, 194, 48);
+    color:#000; 
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+   
+    margin-left: 25px;
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.title h1{
+    font-size: 70px;
+    color:whitesmoke;
+}
+.paragraph{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.paragraph p{
+    font-size: 20px;
+    color: green;
+}
+section{
+    width: 80%;
+    margin: 100px auto;
+}
+.title2{
+    text-align: center;
+    font-size: 5vmin;
+    color: rgb(74, 165, 81);
+}
+
+.title2 p{
+    margin-top: 50px;
+}
+.row{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image{
+    border-radius: 50px;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+
+.row .col p{
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background-color: red;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.line2{
+    width: 50px;
+    height: 2px;
+    background-color: mediumslateblue;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.btn{
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: rgb(74, 165, 81);
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.btn:hover{
+    background-color:rgb(177, 194, 48);
+    color:#000; 
+}
+
+footer{
+    text-align: center;
+    padding-top: 35px;
+    margin-top: 200px;
+    height: 10vh;
+    background-color:rgb(153, 193, 195);
+}
